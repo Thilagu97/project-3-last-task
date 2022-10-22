@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+::selection {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(/assets/image/istockphoto-1202855261-612x612.jpg);
+
+}
+
+
+
+.navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+.d-flex a i {
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar-nav a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-nav li a:hover {
+    color: #e89e27 !important;
+}
+
+.item a {
+    color: #e89e27 !important;
+}
+
+/* card-1 */
+.links {
+    margin-top: 20px;
+}
+
+.card-items {
+    padding: 20px 30px 20px 20px;
+    margin-left: 20px;
+}
+
+/* content-2 */
+video#Video {
+
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.content-item h4,
+h1,
+p {
+    color: rgb(255, 255, 255);
+}
+
+.content-item {
+    background-color: rgba(31, 39, 43, 0.7);
+
+}
+
+.header {
+    position: absolute;
+    background-color: rgba(31, 39, 43, 0.5);
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.video-content {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.home .video-content {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+/**********curosel-1  ******************/
+.slider {
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.slider img {
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 80px;
+
+
+}
+
+.slider-item h3,
+h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.slider-item h3 {
+    font-size: larger;
+
+}
+
+.slider-item h2 {
+    text-align: justify;
+
+}
+
+/* .sec01 {
+    margin-top: -300px;
+} */
+
+
+.sec01.autoplay1 span.priv_arrow.slick-arrow {
+    margin-top: 300px !important;
+}
+
+.first span.slick-arrow {
+    width: 50px;
+    height: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+}
+
+.first span.priv_arrow.slick-arrow {
+    right: -95px;
+    top: 330px;
+}
+
+.first span.next_arrow.slick-arrow {
+    left: -95px;
+    top: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* card-2 */
+.card {
+    border-radius: 30px !important;
+}
+
+.card img {
+    border-radius: 30px !important;
+}
+
+.head {
+    text-align: center;
+}
+
+.line {
+    border-color: gray;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.date>h5 {
+    color: brown;
+}
+
+.content>h5 {
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+
+
+.card-body {
+    margin-top: 130px;
+}
+
+.cimg h6 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(113, 66, 5);
+    background-color: aqua;
+    width: 65px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* apply section */
+
+.box {
+    margin-top: 150px !important;
+
+}
+
+.appdeg {
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(31, 39, 43, 0.5);
+    padding: 30px;
+}
+
+.appbg {
+    background-image: url(/assets/image/apply-bg.jpg);
+}
+
+.background {
+    border: 2px solid white;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.btn.btn-link {
+    color: black;
+}
+
+.btn.btn-link:hover {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.705);
+}
+
+.btn.btn-link:active:hover:before,
+.btn.btn-link::selection:hover:after {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.705);
+}
+
+/*****************slicky coursel-2***********/
+
+
+
+.sec05 span.next_arrow.slick-arrow {
+    color: black;
+    width: 50px;
+    height: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: -100px;
+}
+
+.sec05 span.priv_arrow.slick-arrow {
+    color: black;
+    width: 50px;
+    height: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    right: -73px;
+    top: 105px;
+
+}
+
+
+.heading {
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.line {
+    border-color: gray;
+}
+
+.slide {
+    background-color: white;
+    /* position: absolute; */
+
+}
+
+.currency {
+    float: right;
+    color: brown;
+}
+
+.stars h4 {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.stars {
+    padding: 20px;
+}
+
+.slider {
+    margin-top: 150px;
+}
+
+/**************end **************************************************************************************************** */
+
+/* down-content */
+.down-content {
+    background-image: url(/assets/image/facts-bg.jpg);
+    margin-top: 200px;
+}
+
+.video {
+    background-image: url(/assets/image/video-item-bg.jpg);
+    background-position: center;
+    /* padding: 100px; */
+    padding: 100px 225px 100px 225px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.sub-heading {
+    background-color: green;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    color: white;
+}
+
+/* last content */
+.right-card {
+    color: white;
+    background-color: brown;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.left-form {
+    padding: 40PX;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#last {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+}

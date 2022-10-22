@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/js/all.min.js">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <title>view page</title>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&display=swap');
+</style>
+
+<body>
+
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white">This is an educational <em>HTML CSS</em> template by TemplateMo
+                website.</a>
+            <form class="d-flex">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </form>
+        </div>
+    </nav>
+
+    <!---------------------- navbar-2-------------->
+
+    <section class="header">
+        <nav class="navbar navbar-expand-lg content-2">
+            <div class="container navcontent">
+                <a class="navbar-brand" href="#">
+                    <h4>EDU MEETING</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active item">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MEETING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">APPLY NOW</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </a>
+                            <div class="dropdown-menu bg-primary">
+                                <a class="dropdown-item" href="#">UPCOMING MEETINGS</a>
+                                <a class="dropdown-item" href="#">MEETING DETAILS</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COURSES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- video background -->
+    <section class="home">
+        <video autoplay muted loop id="Video">
+            <source src="/assets/image/course-video.mp4" type="video/mp4" width="100%">
+        </video>
+        <div class="video-content">
+            <div class="container">
+                <div class="row content-item">
+                    <div class="col-lg-12 col-md-12">
+                        <h4>HELLO STUDENTS</h4>
+                        <h1>WELCOME TO EDUCATION</h1>
+                        <P>This is an edu meeting HTML CSS template provided by TemplateMo website.<br> This is a
+                            Bootstrap
+                            v5.1.3
+                            layout. The video background is taken from Pexels website, a <br>group of young people by
+                            Pressmaster.
+                        </P>
+                        <button class="btn btn-danger rounded-pill" id="button">JOIN US NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--slicky carosel-->
+    <section class="first">
+        <div class="container sec01">
+            <div class="row autoplay1">
+                <div class="col-md-3">
+                    <div class="slider">
+                        <img src="/assets/image/service-icon-01.png" alt="" width="50%" class="card-img-top">
+
+                        <div class="slider-item">
+                            <h3>Best Students</h3>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="slider">
+                        <img src="/assets/image/service-icon-02.png" alt="" width="50%" class="card-img-top">
+
+                        <div class="slider-item">
+                            <h3>Best Networking</h3>
+                            <h2>Lorem, ipsum dolor sit amet.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="slider">
+                        <img src="/assets/image/service-icon-03.png" alt="" width="50%" class="card-img-top">
+
+                        <div class="slider-item">
+                            <h3>Online Meeting</h3>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="slider">
+                        <img src="/assets/image/service-icon-03.png" alt="" width="50%" class="card-img-top">
+
+                        <div class="slider-item">
+                            <h3>Best Teachers</h3>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- end -->
+    <section>
+        <h1 class="head">UPCOMING MEETINGS</h1>
+
+        <div class="container">
+            <hr class="line">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-items">
+                            <h4>Meeting Categories</h4>
+                            <div class="links">
+                                <a href="#">Sed tempus enim leo</a><br>
+                                <a href="#">Aenean molestie quis</a><br>
+                                <a href="#">Cras et metus vestibulum</a><br>
+                                <a href="#">Nam et condimentum</a><br>
+                                <a href="#">Phasellus nec sapien</a>
+                                <button class="btn btn-danger btn-block rounded-pill mt-5">ALL UPCOMING MEETING</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 text-center mt-4">
+                            <div class="card cimg" style="width: 18rem;">
+                                <img style="position:absolute" src="/assets/image/meeting-01.jpg" class="card-img-top">
+                                <h6 style="position:relative">$22.00</h6>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="date">
+                                            <h5>NOV</h5>
+                                            <h5>30</h5>
+                                        </div>
+                                        <div class="content">
+                                            <h5>New Lecturers Meeting</h5>
+                                            <h5>Morbi in libero blandit lectus
+                                                cursus ullamcorper.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12  text-center mt-4">
+                            <div class="card cimg" style="width: 18rem;">
+                                <img style="position:absolute" src="/assets/image/meeting-02.jpg" class="card-img-top">
+                                <h6 style="position:relative">$22.00</h6>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="date">
+                                            <h5>NOV</h5>
+                                            <h5>30</h5>
+                                        </div>
+                                        <div class="content">
+                                            <h5>Online Teaching Techniques</h5>
+                                            <h5>Morbi in libero blandit lectus
+                                                cursus ullamcorper.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 text-center mt-4">
+                            <div class="card cimg" style="width: 18rem;">
+                                <img style="position:absolute" src="/assets/image/meeting-03.jpg" class="card-img-top">
+                                <h6 style="position:relative">$22.00</h6>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="date">
+                                            <h5>NOV</h5>
+                                            <h5>30</h5>
+                                        </div>
+                                        <div class="content">
+                                            <h5>Higher Education</h5>
+                                            <h5>Morbi in libero blandit lectus
+                                                cursus ullamcorper.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 text-center mt-4">
+                            <div class="card cimg" style="width: 18rem;">
+                                <img style="position:absolute" src="/assets/image/meeting-04.jpg" class="card-img-top">
+                                <h6 style="position:relative">$22.00</h6>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="date">
+                                            <h5>NOV</h5>
+                                            <h5>30</h5>
+                                        </div>
+                                        <div class="content">
+                                            <h5>Student Training Meetup</h5>
+                                            <h5>Morbi in libero blandit lectus
+                                                cursus ullamcorper.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------ -->
+
+    <!----------------------------------------------->
+    <section class="appbg">
+        <div class="container box">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col">
+                            <div class="appdeg">
+                                <h2>APPLY FOR BACHOLER DEGREE</h2>
+                                <h6>You are allowed to use this edu meeting CSS template for your school or university
+                                    or business
+                                    You can feel free to modify or edit this layout.</h6>
+                                <button class="btn btn-danger rounded-pill mt-3"><a href="#contact"
+                                        target="_blank"></a>JOINUS
+                                    NOW!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="appdeg">
+                                <h2>APPLY FOR BACHOLER DEGREE</h2>
+                                <h6>You are allowed to use this edu meeting CSS template for your school or university
+                                    or
+                                    business.
+                                    You can feel free to modify or edit this layout.</h6>
+                                <button class="btn btn-danger rounded-pill mt-3"><a href="#contact" target=""></a>JOINUS
+                                    NOW!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 background">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        About Edu Meeting HTML Template
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    If you want to get the latest collection of HTML CSS templates for your websites,
+                                    you
+                                    may visit Too CSS website. If you need a working contact form script, please visit
+                                    our
+                                    contact page for more info.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        HTML CSS Bootstrap Layout
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna,
+                                    maximus
+                                    at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate
+                                    augue
+                                    interdum vitae. Aliquam a elit massa.
+
+                                    Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh
+                                    consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus
+                                    ligula,
+                                    ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin
+                                    tincidunt.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Please tell your friends
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit, at
+                                    ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur velit.
+
+                                    Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor sapien et
+                                    quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Share this to your colleagues
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et
+                                    malesuada
+                                    fames ac ante ipsum primis in faucibus.
+
+                                    Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla
+                                    pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi quis,
+                                    convallis nisi.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------------->
+    <!----------------------------cuorsel 2----------------------------------------------------------------------------------------->
+
+    <section class="sec05">
+        <div class="container">
+            <h2 class="heading">OUR POPULAR COURSES</h2>
+            <hr class="line">
+
+            <div class="row autoplay1 mt-5">
+                <div class="col-md-3">
+                    <div class="slide">
+                        <img src="/assets/image/course-01.jpg" alt="" width="100%" class="card-img-top">
+
+                        <div class="stars">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="currency">
+                                $480
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="slide">
+                        <img src="/assets/image/course-02.jpg" alt="" width="100%" class="card-img-top">
+
+                        <div class="stars">
+                            <h4>TemplateMo is the best website</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="currency">
+                                $560
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="slide">
+                        <img src="/assets/image/course-03.jpg" alt="" width="100%" class="card-img-top">
+
+                        <div class="stars">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="currency">
+                                $160
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="slide">
+                        <img src="/assets/image/course-04.jpg" alt="" width="100%" class="card-img-top">
+                        <div class="stars">
+                            <h4>sit amet consectetur adipisicing</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="currency">
+                                $180
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------- -->
+    <section class="down-content">
+        <div class="container">
+            <h2 class="title">
+                A Few Facts About Our University
+            </h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col">
+                            <div class="sub-heading">
+                                <h1>94%</h1>
+                                <p>successed students</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="sub-heading">
+                                <h1>126</h1>
+                                <p>Current Teachers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="sub-heading">
+                                <h1>2345</h1>
+                                <p>New Students</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="sub-heading">
+                                <h1>32</h1>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-lg-6 md-12 m-auto">
+                        <div class="video">
+                            <a href="https://youtu.be/HndV87XpkWg" target="_blank" rel="noopener noreferrer"><img
+                                    src="/assets/image/play-icon.png" alt="" class="icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <div class="row">
+                <div class="col-md-6">
+
+                    <div class="sub-heading">
+                        <h1>94%</h1>
+                        <p>successed students</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="video">
+                        <a href="https://youtu.be/HndV87XpkWg" target="_blank" rel="noopener noreferrer"><img
+                                src="/assets/image/play-icon.png" alt="" class="icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sub-heading">
+                        <h1>126</h1>
+                        <p>Current Teachers</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="sub-heading">
+                        <h1>2345</h1>
+                        <p>New Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sub-heading">
+                        <h1>32</h1>
+                        <p>Awards</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>------------------------->
+
+    <section id="last">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-9 col-md-12">
+                    <div class="left-form">
+                        <form action="">
+                            <h4> Let's Get in Touch</h4>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="email">
+                                </div>
+
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="exampleFormControlTextarea3">Text Area</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="7"
+                                    placeholder="enter your text"></textarea>
+                            </div>
+                            <div class="btn btn btn-danger rounded-pill">Send Message now</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+
+                    <div class="right-card">
+                        <h5>Phone number
+                            010-020-0340</h5>
+                        <hr>
+                        <h5>Email address
+                            info@meeting.edu</h5>
+                        <hr>
+                        <h5>Street Address</h5>
+                        <h5>
+                            Rio de Janeiro - RJ, 22795-008, Brazil</h5>
+                        <hr>
+                        <h5>Website URL
+                            www.meeting.edu</h5>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <hr class="line">
+
+    <div>
+        <div class="footer">
+            <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- slick jquary -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('.autoplay1').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<span class="priv_arrow"><i class="fa-solid fa-angle-right"></i></span>',
+            nextArrow: '<span class="next_arrow"><i class="fa-solid fa-angle-left"></i></span>',
+
+        });
+    </script>
+
+</body>
+
+</html>
